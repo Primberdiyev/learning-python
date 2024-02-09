@@ -97,10 +97,8 @@ for poytaxt in sorted(davlat_poytaxt.values()):
     print(poytaxt.title())
 #3
 davlat1=input("qaysi davlat poytaxtini bilishni hohlaysiz>>>")
-if davlat1 in davlat_poytaxt.keys():
-    print(f"{davlat1} ning poytaxtni {davlat_poytaxt[davlat1]} ")
-else:
-    print("bizda bu haqida hech qanday malumot yo'q")
+
+    
 #4
 menu={
       "osh":2000,
