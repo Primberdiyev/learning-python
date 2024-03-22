@@ -39,6 +39,18 @@ class Talaba(Inson):
             return self.__jinsi
         
 talaba1=Talaba("Dilshod","Primberdiyev","Erkak","Farg'ona viloyati")
+
+
+
+
+
+
+
+
+
+
+
+
     
         
 
