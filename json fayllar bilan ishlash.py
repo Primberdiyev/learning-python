@@ -17,3 +17,23 @@ m_json=json.dumps(m)
 sonlar=(1,23,4,56,756)
 sonlar2=json.dumps(sonlar)
  
+
+bemor={
+       "ism":"Alijon",
+       "yosh":18,
+       "allergiya":None,
+       "oila":True,
+       "dorilar": [{'nomi':"Sproks",'miqdori':125},{'nomi':"Parastamol","miqdori":120}]
+      }
+bemor_json=json.dumps(bemor,indent=4)
+with open('bemor_json','w') as f:
+    json.dump(bemor_json,f)
+with open('bemor_py','w') as file:
+    json.dump(bemor,file)
+fact="Dilshod Primberdiyev eng zo'r dasturchi"
+fact_json=json.dumps(fact)
+fact_py=json.loads(fact_json)
+with open('bemor_py') as file:
+    fayl=json.load(file)
+print(fayl)       
+       
